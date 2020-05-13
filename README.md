@@ -15,19 +15,19 @@ parameters:
     -   *Imbalance error*;
 
 -   distribution: Zipfian distribution with
-    $exp \in \{0.8, 1, 1.5, 2\}$;
+    exp of 0.8, 1, 1.5, 2
 
 -   data burst:
 
     -   no burst;
 
-    -   light burst ($bsp = 0.2$, $kbp = 0.1$, $bl_{min} = 3$,
-        $bl_{max} = 5$);
+    -   light burst (bsp = 0.2, kbp = 0.1, blmin = 3,
+        blmax = 5);
 
-    -   heavy burst ($bsp = 0.3$, $kbp = 0.2$, $bl_{min} = 2$,
-        $bl_{max} = 4$)
+    -   heavy burst (bsp = 0.3, kbp = 0.2, blmin = 2,
+        blmax = 4)
 
--   drift graduality: abrupt and gradual ($len = 1\,000\,000$);
+-   drift graduality: abrupt and gradual (len = 1 000 000);
 
 -   algorithm sets:
 
