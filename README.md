@@ -74,15 +74,15 @@ parameters:
 
 ## Algorithm configurations
 
--   Sticky Sampling: frequency = 0.0005, error = 0.00005, probabilityOfFailure = 0.0001
+-   Sticky Sampling: frequency = 0.0005, error = 0.00005, probability of failure = 0.0001
 
 -   Lossy Counting: frequency = 0.0005, error = 0.00005
 
 -   Space Saving: epsilon = 0.0001
 
--   Landmark: windowsize = 40000
+-   Landmark: window size = 40000
 
--   Frequent: topk=400, slidingwindowsize=40000, basicwindowsize=5000
+-   Frequent: top-K=400, sliding window size=40000, basic window size=5000
 
 -   Temporal Smoothed: threshold=40000, switch threshold=40000
 
