@@ -1,0 +1,28 @@
+{
+  "describe":"One drift at the middle of the stream with zeta distribution, exponent = 0.8 and window = 1000000. Intended to measure the samplings.Date of generation: 9-5-2020-11-5-40_ Random Stream Parameters_: initialZetaE: 0.8, firstDrift: e=0.8, w=1000000, dr=0.5, drifts: []",
+  "nElements":5000000,
+  "nShops":100000,
+  "fileName":"dataset_C/mid_drift_0d8_1000000_9-5-2020-11-5-43",
+  "initialDistribution":{
+    "distr":"zeta/exponent/shift",
+    "seed":1358325326,
+    "params":[
+      0.8,
+      1.0
+    ]
+  },
+  "drifters":[
+    {
+      "distrConfig":{
+        "distr":"zeta/exponent/shift",
+        "seed":-1749394379,
+        "params":[
+          0.8,
+          1.0
+        ]
+      },
+      "offsetPrc":0.5,
+      "driftWindow":1000000
+    }
+  ]
+}
