@@ -18,7 +18,7 @@ parameters:
 
     -   Run time
 
-    -   *Imbalance error*
+    -   *Imbalance error* (with 5, 10, 20, 50 partitions)
 
 -   Distribution: Zipfian distribution with
     exp of 0.8, 1, 1.5, 2
@@ -42,8 +42,6 @@ parameters:
 
     -   *Temporal Smoothed*, *Checkpoint Smoothed*, *Frequent* and
         *Lossy Counting*
-
--   Partition number: 5, 10, 20, 50
 
 # Structure of this repository
 
