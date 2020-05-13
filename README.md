@@ -10,7 +10,7 @@ We used micro-batches of size 30 000 and a top-K value of 300.
 We generated the main data set and results based on the following
 parameters:
 
--   metrics:
+-   Metrics:
 
     -   *Hellinger distance*
 
@@ -20,10 +20,10 @@ parameters:
 
     -   *Imbalance error*
 
--   distribution: Zipfian distribution with
+-   Distribution: Zipfian distribution with
     exp of 0.8, 1, 1.5, 2
 
--   data burst:
+-   Data burst:
 
     -   no burst
 
@@ -33,15 +33,17 @@ parameters:
     -   heavy burst (bsp = 0.3, kbp = 0.2, blmin = 2,
         blmax = 4)
 
--   drift graduality: abrupt and gradual (len = 1 000 000)
+-   Drift graduality: abrupt and gradual (len = 1 000 000)
 
--   algorithm sets:
+-   Algorithm sets:
 
     -   *Sticky Sampling*, *Lossy Counting*, *Space Saving*, *Landmark*
         and *Frequent*
 
     -   *Temporal Smoothed*, *Checkpoint Smoothed*, *Frequent* and
         *Lossy Counting*
+
+-   Partition number: 5, 10, 20, 50
 
 # Structure of this repository
 
