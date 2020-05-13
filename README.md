@@ -49,7 +49,7 @@ parameters:
     ├── datasets                        # Contains the data streams, their metadata and the burst configurations
     │   ├── no_burst                    # Base dataset with no bursts
     │   ├── light_burst                 # Light burst configuration and the visualization of light burst
-    │   └── heavy_burst                 # Heavy burst configuration and the visualization of light burst
+    │   └── heavy_burst                 # Heavy burst configuration and the visualization of heavy burst
     ├── state_of_the_art_measurement    # All of the metrics for state of the art algorithms
     │   ├── hellinger_distance          # Hellinger distance, time and memory metrics
     │   │   ├── no_burst                # Measurements with no burst
