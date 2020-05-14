@@ -1,0 +1,8 @@
+{
+  "burstStartProbability":0.2,
+  "keyBurstynessProbability":0.1,
+  "burstLength":{
+    "_1$mcI$sp":3,
+    "_2$mcI$sp":5
+  }
+}
